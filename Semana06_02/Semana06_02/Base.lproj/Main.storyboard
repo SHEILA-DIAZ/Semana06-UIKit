@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Confirmacion-->
         <scene sceneID="C2s-cN-001">
             <objects>
-                <viewController id="C2v-cT-001" sceneMemberID="viewController">
+                <viewController id="C2v-cT-001" customClass="ViewControllerConfirmacion" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C2v-iW-001">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
