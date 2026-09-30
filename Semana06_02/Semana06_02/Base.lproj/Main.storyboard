@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NvC-tR-002">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="NvS-cN-002">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NvC-tR-002" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NvB-aR-002">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="NvR-oT-002"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NvF-rS-002" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-800" y="0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATOS DEL CLIENTE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1t-iT-001">
+                                <rect key="frame" x="109" y="104" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por favor Ingresa los siguientes Datos :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1i-nS-001">
+                                <rect key="frame" x="75" y="165" width="225" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apellidos :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1a-lB-001">
+                                <rect key="frame" x="44" y="219" width="68" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C1a-tF-001">
+                                <rect key="frame" x="120" y="210" width="180" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombres :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1n-lB-001">
+                                <rect key="frame" x="49" y="263" width="63" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C1n-tF-001">
+                                <rect key="frame" x="120" y="254" width="180" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DNI :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C1d-lB-001">
+                                <rect key="frame" x="79" y="307" width="33" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="C1d-tF-001">
+                                <rect key="frame" x="120" y="298" width="110" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1b-tN-001">
+                                <rect key="frame" x="152" y="372" width="71" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Continuar"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="C1t-iT-001" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="C1k-01-001"/>
+                            <constraint firstItem="C1t-iT-001" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C1k-02-001"/>
+                            <constraint firstItem="C1i-nS-001" firstAttribute="top" secondItem="C1t-iT-001" secondAttribute="bottom" constant="40" id="C1k-03-001"/>
+                            <constraint firstItem="C1i-nS-001" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C1k-04-001"/>
+                            <constraint firstItem="C1a-tF-001" firstAttribute="top" secondItem="C1i-nS-001" secondAttribute="bottom" constant="29" id="C1k-05-001"/>
+                            <constraint firstItem="C1a-tF-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="120" id="C1k-06-001"/>
+                            <constraint firstItem="C1a-tF-001" firstAttribute="width" constant="180" id="C1k-07-001"/>
+                            <constraint firstItem="C1a-tF-001" firstAttribute="leading" secondItem="C1a-lB-001" secondAttribute="trailing" constant="8" id="C1k-08-001"/>
+                            <constraint firstItem="C1a-lB-001" firstAttribute="centerY" secondItem="C1a-tF-001" secondAttribute="centerY" id="C1k-09-001"/>
+                            <constraint firstItem="C1n-tF-001" firstAttribute="top" secondItem="C1a-tF-001" secondAttribute="bottom" constant="10" id="C1k-10-001"/>
+                            <constraint firstItem="C1n-tF-001" firstAttribute="leading" secondItem="C1a-tF-001" secondAttribute="leading" id="C1k-11-001"/>
+                            <constraint firstItem="C1n-tF-001" firstAttribute="width" secondItem="C1a-tF-001" secondAttribute="width" id="C1k-12-001"/>
+                            <constraint firstItem="C1n-tF-001" firstAttribute="leading" secondItem="C1n-lB-001" secondAttribute="trailing" constant="8" id="C1k-13-001"/>
+                            <constraint firstItem="C1n-lB-001" firstAttribute="centerY" secondItem="C1n-tF-001" secondAttribute="centerY" id="C1k-14-001"/>
+                            <constraint firstItem="C1d-tF-001" firstAttribute="top" secondItem="C1n-tF-001" secondAttribute="bottom" constant="10" id="C1k-15-001"/>
+                            <constraint firstItem="C1d-tF-001" firstAttribute="leading" secondItem="C1a-tF-001" secondAttribute="leading" id="C1k-16-001"/>
+                            <constraint firstItem="C1d-tF-001" firstAttribute="width" constant="110" id="C1k-17-001"/>
+                            <constraint firstItem="C1d-tF-001" firstAttribute="leading" secondItem="C1d-lB-001" secondAttribute="trailing" constant="8" id="C1k-18-001"/>
+                            <constraint firstItem="C1d-lB-001" firstAttribute="centerY" secondItem="C1d-tF-001" secondAttribute="centerY" id="C1k-19-001"/>
+                            <constraint firstItem="C1b-tN-001" firstAttribute="top" secondItem="C1d-tF-001" secondAttribute="bottom" constant="40" id="C1k-20-001"/>
+                            <constraint firstItem="C1b-tN-001" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="C1k-21-001"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="C1v-nI-001"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="C2s-cN-001">
+            <objects>
+                <viewController id="C2v-cT-001" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C2v-iW-001">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATOS INGRESADOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2t-iT-001">
+                                <rect key="frame" x="109" y="60" width="157" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Datos del Clientes que fueron ingresados" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2i-nS-001">
+                                <rect key="frame" x="67" y="121" width="241" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apellidos :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2a-lB-001">
+                                <rect key="frame" x="44" y="167" width="68" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2a-vL-001">
+                                <rect key="frame" x="120" y="167" width="180" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombres :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2n-lB-001">
+                                <rect key="frame" x="49" y="199" width="63" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2n-vL-001">
+                                <rect key="frame" x="120" y="199" width="180" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DNI :" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2d-lB-001">
+                                <rect key="frame" x="79" y="231" width="33" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="____________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2d-vL-001">
+                                <rect key="frame" x="120" y="231" width="180" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="C2s-aF-001"/>
+                        <constraints>
+                            <constraint firstItem="C2t-iT-001" firstAttribute="top" secondItem="C2s-aF-001" secondAttribute="top" constant="40" id="C2k-01-001"/>
+                            <constraint firstItem="C2t-iT-001" firstAttribute="centerX" secondItem="C2v-iW-001" secondAttribute="centerX" id="C2k-02-001"/>
+                            <constraint firstItem="C2i-nS-001" firstAttribute="top" secondItem="C2t-iT-001" secondAttribute="bottom" constant="40" id="C2k-03-001"/>
+                            <constraint firstItem="C2i-nS-001" firstAttribute="centerX" secondItem="C2v-iW-001" secondAttribute="centerX" id="C2k-04-001"/>
+                            <constraint firstItem="C2a-vL-001" firstAttribute="top" secondItem="C2i-nS-001" secondAttribute="bottom" constant="30" id="C2k-05-001"/>
+                            <constraint firstItem="C2a-vL-001" firstAttribute="leading" secondItem="C2s-aF-001" secondAttribute="leading" constant="120" id="C2k-06-001"/>
+                            <constraint firstItem="C2a-vL-001" firstAttribute="width" constant="180" id="C2k-07-001"/>
+                            <constraint firstItem="C2a-vL-001" firstAttribute="leading" secondItem="C2a-lB-001" secondAttribute="trailing" constant="8" id="C2k-08-001"/>
+                            <constraint firstItem="C2a-lB-001" firstAttribute="centerY" secondItem="C2a-vL-001" secondAttribute="centerY" id="C2k-09-001"/>
+                            <constraint firstItem="C2n-vL-001" firstAttribute="top" secondItem="C2a-vL-001" secondAttribute="bottom" constant="16" id="C2k-10-001"/>
+                            <constraint firstItem="C2n-vL-001" firstAttribute="leading" secondItem="C2a-vL-001" secondAttribute="leading" id="C2k-11-001"/>
+                            <constraint firstItem="C2n-vL-001" firstAttribute="width" secondItem="C2a-vL-001" secondAttribute="width" id="C2k-12-001"/>
+                            <constraint firstItem="C2n-vL-001" firstAttribute="leading" secondItem="C2n-lB-001" secondAttribute="trailing" constant="8" id="C2k-13-001"/>
+                            <constraint firstItem="C2n-lB-001" firstAttribute="centerY" secondItem="C2n-vL-001" secondAttribute="centerY" id="C2k-14-001"/>
+                            <constraint firstItem="C2d-vL-001" firstAttribute="top" secondItem="C2n-vL-001" secondAttribute="bottom" constant="16" id="C2k-15-001"/>
+                            <constraint firstItem="C2d-vL-001" firstAttribute="leading" secondItem="C2a-vL-001" secondAttribute="leading" id="C2k-16-001"/>
+                            <constraint firstItem="C2d-vL-001" firstAttribute="width" secondItem="C2a-vL-001" secondAttribute="width" id="C2k-17-001"/>
+                            <constraint firstItem="C2d-vL-001" firstAttribute="leading" secondItem="C2d-lB-001" secondAttribute="trailing" constant="8" id="C2k-18-001"/>
+                            <constraint firstItem="C2d-lB-001" firstAttribute="centerY" secondItem="C2d-vL-001" secondAttribute="centerY" id="C2k-19-001"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C2f-rS-001" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
