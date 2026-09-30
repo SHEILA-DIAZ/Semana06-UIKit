@@ -51,10 +51,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="P2s-cN-001">
             <objects>
-                <viewController id="P2v-cT-001" sceneMemberID="viewController">
+                <viewController id="P2v-cT-001" customClass="ViewController2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="P2v-iW-001">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
