@@ -19,6 +19,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnContinuar(_ sender: Any) {
+        let pCliente = ClienteModel(pCodigo: 0, pApellido: self.tfApellido.text!, pNombre: self.tfNombre.text!, pDni: self.tfDni.text!)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let pPantalla2 = storyboard.instantiateViewController(withIdentifier: "ViewControllerConfirmacion") as! ViewControllerConfirmacion
+        pPantalla2.pCliente = pCliente
+        self.present(pPantalla2, animated: true, completion: nil)
     }
 
 }
