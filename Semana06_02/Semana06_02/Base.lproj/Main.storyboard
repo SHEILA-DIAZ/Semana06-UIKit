@@ -81,6 +81,9 @@
                                 <rect key="frame" x="152" y="372" width="71" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Continuar"/>
+                                <connections>
+                                    <action selector="btnContinuar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C1a-cT-001"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -110,6 +113,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="C1v-nI-001"/>
+                    <connections>
+                        <outlet property="tfApellido" destination="C1a-tF-001" id="C1o-tA-001"/>
+                        <outlet property="tfDni" destination="C1d-tF-001" id="C1o-tD-001"/>
+                        <outlet property="tfNombre" destination="C1n-tF-001" id="C1o-tN-001"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
