@@ -46,7 +46,13 @@
                             <constraint firstItem="P1l-bL-001" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="P1c-Y0-001"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="P1n-aV-001"/>
+                    <navigationItem key="navigationItem" id="P1n-aV-001">
+                        <barButtonItem key="rightBarButtonItem" title="A Pantalla 2" id="P1b-bT-001">
+                            <connections>
+                                <segue destination="P2v-cT-001" kind="show" id="P1s-gE-001"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
