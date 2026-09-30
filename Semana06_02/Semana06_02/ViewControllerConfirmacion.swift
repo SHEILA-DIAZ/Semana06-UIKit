@@ -17,6 +17,9 @@ class ViewControllerConfirmacion: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tfApellido.text = pCliente.Apellido
+        self.tfNombre.text = pCliente.Nombre
+        self.tfDni.text = pCliente.Dni
 
         // Do any additional setup after loading the view.
     }
