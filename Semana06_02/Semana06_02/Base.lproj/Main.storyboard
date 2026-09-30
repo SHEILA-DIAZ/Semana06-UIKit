@@ -196,6 +196,11 @@
                             <constraint firstItem="C2d-lB-001" firstAttribute="centerY" secondItem="C2d-vL-001" secondAttribute="centerY" id="C2k-19-001"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tfApellido" destination="C2a-vL-001" id="C2o-tA-001"/>
+                        <outlet property="tfDni" destination="C2d-vL-001" id="C2o-tD-001"/>
+                        <outlet property="tfNombre" destination="C2n-vL-001" id="C2o-tN-001"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C2f-rS-001" sceneMemberID="firstResponder"/>
             </objects>
