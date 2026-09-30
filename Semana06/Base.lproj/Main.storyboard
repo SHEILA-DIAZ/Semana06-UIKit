@@ -32,5 +32,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="P2s-cN-001">
+            <objects>
+                <viewController id="P2v-cT-001" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P2v-iW-001">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PANTALLA 02" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2l-bL-001">
+                                <rect key="frame" x="139" y="323" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="P2s-aF-001"/>
+                        <constraints>
+                            <constraint firstItem="P2l-bL-001" firstAttribute="centerX" secondItem="P2v-iW-001" secondAttribute="centerX" id="P2c-X0-001"/>
+                            <constraint firstItem="P2l-bL-001" firstAttribute="centerY" secondItem="P2v-iW-001" secondAttribute="centerY" id="P2c-Y0-001"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P2f-rS-001" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="0"/>
+        </scene>
     </scenes>
 </document>
