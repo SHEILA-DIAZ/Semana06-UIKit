@@ -13,12 +13,126 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nueva Venta" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3t-iT-001">
+                                <rect key="frame" x="125.5" y="60" width="124" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" systemColor="systemBlueColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electrodoméstico" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-ele-001">
+                                <rect key="frame" x="20" y="121" width="200" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ej. Refrigeradora" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3f-ele-001">
+                                <rect key="frame" x="20" y="145" width="335" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Precio unitario" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-pre-001">
+                                <rect key="frame" x="20" y="195" width="200" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3f-pre-001">
+                                <rect key="frame" x="20" y="219" width="335" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cantidad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-can-001">
+                                <rect key="frame" x="20" y="269" width="200" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3f-can-001">
+                                <rect key="frame" x="20" y="293" width="335" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número de meses" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-mes-001">
+                                <rect key="frame" x="20" y="343" width="200" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3f-mes-001">
+                                <rect key="frame" x="20" y="367" width="335" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tasa de interés mensual (%)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3l-int-001">
+                                <rect key="frame" x="20" y="417" width="200" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="0.00" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="E3f-int-001">
+                                <rect key="frame" x="20" y="441" width="335" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3b-cA-001">
+                                <rect key="frame" x="152" y="507" width="71" height="34"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Calcular"/>
+                                <connections>
+                                    <action selector="btnCalcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E3a-cA-001"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <constraints>
+                            <constraint firstItem="E3t-iT-001" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="E3k-tt-001"/>
+                            <constraint firstItem="E3t-iT-001" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E3k-tc-001"/>
+                            <constraint firstItem="E3l-ele-001" firstAttribute="top" secondItem="E3t-iT-001" secondAttribute="bottom" constant="32" id="E3k-ele-001"/>
+                            <constraint firstItem="E3l-ele-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-ele-002"/>
+                            <constraint firstItem="E3f-ele-001" firstAttribute="top" secondItem="E3l-ele-001" secondAttribute="bottom" constant="6" id="E3k-ele-003"/>
+                            <constraint firstItem="E3f-ele-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-ele-004"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3f-ele-001" secondAttribute="trailing" constant="20" id="E3k-ele-005"/>
+                            <constraint firstItem="E3l-pre-001" firstAttribute="top" secondItem="E3f-ele-001" secondAttribute="bottom" constant="16" id="E3k-pre-001"/>
+                            <constraint firstItem="E3l-pre-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-pre-002"/>
+                            <constraint firstItem="E3f-pre-001" firstAttribute="top" secondItem="E3l-pre-001" secondAttribute="bottom" constant="6" id="E3k-pre-003"/>
+                            <constraint firstItem="E3f-pre-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-pre-004"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3f-pre-001" secondAttribute="trailing" constant="20" id="E3k-pre-005"/>
+                            <constraint firstItem="E3l-can-001" firstAttribute="top" secondItem="E3f-pre-001" secondAttribute="bottom" constant="16" id="E3k-can-001"/>
+                            <constraint firstItem="E3l-can-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-can-002"/>
+                            <constraint firstItem="E3f-can-001" firstAttribute="top" secondItem="E3l-can-001" secondAttribute="bottom" constant="6" id="E3k-can-003"/>
+                            <constraint firstItem="E3f-can-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-can-004"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3f-can-001" secondAttribute="trailing" constant="20" id="E3k-can-005"/>
+                            <constraint firstItem="E3l-mes-001" firstAttribute="top" secondItem="E3f-can-001" secondAttribute="bottom" constant="16" id="E3k-mes-001"/>
+                            <constraint firstItem="E3l-mes-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-mes-002"/>
+                            <constraint firstItem="E3f-mes-001" firstAttribute="top" secondItem="E3l-mes-001" secondAttribute="bottom" constant="6" id="E3k-mes-003"/>
+                            <constraint firstItem="E3f-mes-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-mes-004"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3f-mes-001" secondAttribute="trailing" constant="20" id="E3k-mes-005"/>
+                            <constraint firstItem="E3l-int-001" firstAttribute="top" secondItem="E3f-mes-001" secondAttribute="bottom" constant="16" id="E3k-int-001"/>
+                            <constraint firstItem="E3l-int-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-int-002"/>
+                            <constraint firstItem="E3f-int-001" firstAttribute="top" secondItem="E3l-int-001" secondAttribute="bottom" constant="6" id="E3k-int-003"/>
+                            <constraint firstItem="E3f-int-001" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="E3k-int-004"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="E3f-int-001" secondAttribute="trailing" constant="20" id="E3k-int-005"/>
+                            <constraint firstItem="E3b-cA-001" firstAttribute="top" secondItem="E3f-int-001" secondAttribute="bottom" constant="32" id="E3k-bt-001"/>
+                            <constraint firstItem="E3b-cA-001" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E3k-bt-002"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tfCantidad" destination="E3f-can-001" id="E3o-can-001"/>
+                        <outlet property="tfElectrodomestico" destination="E3f-ele-001" id="E3o-ele-001"/>
+                        <outlet property="tfInteres" destination="E3f-int-001" id="E3o-int-001"/>
+                        <outlet property="tfMeses" destination="E3f-mes-001" id="E3o-mes-001"/>
+                        <outlet property="tfPrecioUnitario" destination="E3f-pre-001" id="E3o-pre-001"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
