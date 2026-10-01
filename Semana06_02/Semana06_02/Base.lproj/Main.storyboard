@@ -179,6 +179,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C2b-tN-001">
+                                <rect key="frame" x="163" y="287" width="49" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Volver"/>
+                                <connections>
+                                    <action selector="btnVolver:" destination="C2v-cT-001" eventType="touchUpInside" id="C2a-cT-001"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="C2s-aF-001"/>
@@ -202,6 +210,8 @@
                             <constraint firstItem="C2d-vL-001" firstAttribute="width" secondItem="C2a-vL-001" secondAttribute="width" id="C2k-17-001"/>
                             <constraint firstItem="C2d-vL-001" firstAttribute="leading" secondItem="C2d-lB-001" secondAttribute="trailing" constant="8" id="C2k-18-001"/>
                             <constraint firstItem="C2d-lB-001" firstAttribute="centerY" secondItem="C2d-vL-001" secondAttribute="centerY" id="C2k-19-001"/>
+                            <constraint firstItem="C2b-tN-001" firstAttribute="top" secondItem="C2d-vL-001" secondAttribute="bottom" constant="40" id="C2k-20-001"/>
+                            <constraint firstItem="C2b-tN-001" firstAttribute="centerX" secondItem="C2v-iW-001" secondAttribute="centerX" id="C2k-21-001"/>
                         </constraints>
                     </view>
                     <connections>
