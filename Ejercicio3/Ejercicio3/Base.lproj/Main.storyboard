@@ -99,7 +99,6 @@
                                 <state key="normal" title="Calcular"/>
                                 <connections>
                                     <action selector="btnCalcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E3a-cA-001"/>
-                                    <segue destination="R3c-tR-001" kind="show" identifier="showResultado" id="E3s-sR-001"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -144,6 +143,7 @@
                         <outlet property="tfInteres" destination="E3f-int-001" id="E3o-int-001"/>
                         <outlet property="tfMeses" destination="E3f-mes-001" id="E3o-mes-001"/>
                         <outlet property="tfPrecioUnitario" destination="E3f-pre-001" id="E3o-pre-001"/>
+                        <segue destination="R3c-tR-001" kind="show" identifier="showResultado" id="E3s-sR-001"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
